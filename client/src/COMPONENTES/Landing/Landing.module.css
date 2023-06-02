@@ -1,0 +1,39 @@
+.container{
+    background-image: url("https://cdn.shopify.com/s/files/1/0482/6126/7617/articles/M314_1080x.jpg?v=1633105598");
+    width: 100%;
+    position: absolute;
+    background-size: cover; /* Ajusta la imagen al tamaño del div */
+    background-position: center; /* Centra la imagen dentro del div */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido{
+color: white;
+font-size: x-large;
+}
+
+.contenido h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h4 span{
+    color: red;
+}
+.btn{
+    width: 20%;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: solid black 2px;
+    font-weight: bold;
+    background-color: rgba(255, 0, 0, 0.626);
+}
+
+.btn:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+

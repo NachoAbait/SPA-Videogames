@@ -1,0 +1,73 @@
+.contaiener{
+    display: flex;
+    background-color: rgb(25, 9, 62) ;
+}
+
+.principal{
+    position: absolute;
+    width: 100%;
+    height: 89vh;
+    margin-top: 69px;
+}
+
+.datos{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    background-color:  rgb(27, 12, 60);
+    margin-top: 625px;
+    flex-wrap: wrap;
+    opacity: 1;
+}
+
+.resumen{
+    display: flex-box;
+    border: solid white 2px;
+    margin: 20px;
+    width: 50%;
+    text-align: start;
+    position: relative;
+    margin-top: 70px;
+    opacity: 0;
+}
+.resumen h1{
+    color: red;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.resumen p{
+    color: white;
+    padding-left: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+
+.extras{
+    border: solid white 2px;
+    text-align: start;
+    margin: 20px;
+    width: 40%;
+    height: auto;
+    margin-top: 70px;
+    opacity: 0;
+}
+.extras h1{
+    color: red;
+    padding-left: 20px;
+}
+.extras p{
+    color: white;
+    font-weight: bold;
+    padding-left: 20px; 
+    margin-bottom: 30px;
+}
+
+
+.aparece{
+    opacity: 1;
+    transition: 3s;
+    transform: translateY(-50px);
+}
+ 
