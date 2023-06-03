@@ -2,7 +2,7 @@ import axios from "axios";
 
 export function getGenres() {
   return async function (dispatch) {
-    var genres = await axios.get("http://localhost:3001/genres");
+    var genres = await axios.get("/genres");
     console.log(genres.data);
 
     return dispatch({

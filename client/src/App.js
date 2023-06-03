@@ -9,6 +9,9 @@ import Landing from "./COMPONENTES/Landing/Landing";
 import axios from "axios";
 import Detalles from "./COMPONENTES/Detalles/Detalles";
 
+
+axios.defaults.baseURL = "http://localhost:3001/"
+
 function App() {
   return (
     <BrowserRouter>
