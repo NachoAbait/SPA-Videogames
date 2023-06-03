@@ -4,7 +4,6 @@ import { Link } from "react-router-dom"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { } from "@fortawesome/free-brands-svg-icons"
 import { faGamepad } from "@fortawesome/free-solid-svg-icons"
-import Juegos from "../Juegos/Juegos";
 
 
 export default function Barra() {

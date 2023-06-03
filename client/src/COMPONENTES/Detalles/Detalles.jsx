@@ -62,7 +62,7 @@ export default function Detalles() {
 
   // Mostrar un indicador de carga mientras se espera la respuesta
   if (!detalle) {
-    return <iframe src="https://embed.lottiefiles.com/animation/143548" className={css.cargando}></iframe>;
+    return <iframe title="aa" src="https://embed.lottiefiles.com/animation/143548" className={css.cargando}></iframe>;
   }
 
   // Mostrar los detalles del juego una vez que se obtenga la respuesta

@@ -13,7 +13,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { } from "@fortawesome/free-brands-svg-icons"
 import { faArrowDownWideShort } from "@fortawesome/free-solid-svg-icons"
 import { filterGenre } from "../../REDUX/ACTIONS/filterGenre";
-import { limpiarDetalle } from "../../REDUX/ACTIONS/limpiarDetalle";
 
 export default function Juegos() {
     const dispatch = useDispatch()
@@ -106,7 +105,7 @@ export default function Juegos() {
                     )}
                     </div>
                 
-                </div> : <iframe src="https://embed.lottiefiles.com/animation/143548" className={css.cargando}></iframe>}
+                </div> : <iframe src="https://embed.lottiefiles.com/animation/143548" className={css.cargando} title="a"></iframe>}
             
         
         </div>
