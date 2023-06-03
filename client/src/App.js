@@ -9,8 +9,7 @@ import Landing from "./COMPONENTES/Landing/Landing";
 import axios from "axios";
 import Detalles from "./COMPONENTES/Detalles/Detalles";
 
-
-axios.defaults.baseURL = "http://localhost:3001/"
+axios.defaults.baseURL = "https://spa-videogames-production.up.railway.app/";
 
 function App() {
   return (
